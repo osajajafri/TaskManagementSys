@@ -1,5 +1,7 @@
 ✅ Java Task Management System 
+
 📌 Overview
+
 This project is a command-line Task Management System implemented in Java, built to demonstrate key object-oriented programming (OOP) principles such as inheritance, encapsulation, cohesion, coupling, and interface-based design. It supports adding, viewing, and removing various types of tasks via a simple textual interface.
 This was developed as part of the Object-Oriented Programming coursework for the F27SB: Software Development 2 module at Heriot-Watt University.
 ________________________________________
