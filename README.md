@@ -21,6 +21,7 @@ ________________________________________
 
 ________________________________________
 🧱 Task Types
+
 The system defines a clear class hierarchy:
 
                  Task (abstract)
@@ -50,7 +51,9 @@ interface Remindable {
 
 ________________________________________
 💻 How to Use
+
 🏁 Starting the Program
+
 On startup, the program:
 
 1.	Loads all tasks from a local file (if present)
@@ -86,20 +89,32 @@ Task types available:
 
 ________________________________________
 📁 Project Structure
+
 src/
+
 ├── Task.java                 # Abstract base class
+
 ├── PersonalTask.java         # Personal task type
+
 ├── WorkTask.java             # Implements Remindable
+
 ├── TeamWorkTask.java         # Extends WorkTask
+
 ├── TaskManager.java          # Manages list of tasks
+
 ├── TaskApp.java              # Main class with CLI
+
 ├── Remindable.java           # Interface
+
 ├── FileHandler.java          # Read/write to file
+
 └── test/
+
     └── TaskManagerTest.java  # JUnit tests for add/remove
 
 ________________________________________
 🧪 Testing
+
 Unit tests are written using JUnit and include:
 
 •	✅ Positive & negative tests for adding/removing tasks
@@ -125,7 +140,9 @@ Low Coupling	    Separation of UI, logic, file handling, and task definitions
 
 ________________________________________
 💾 File Persistence
+
 On exit, tasks are serialized and saved.
+
 On startup, tasks are deserialized and loaded automatically.
 Supports persistence of:
 
@@ -137,8 +154,11 @@ Supports persistence of:
 
 ________________________________________
 👨‍💻 Developer
+
 Osaja Jafri
+
 BSc Computer Science (AI)
+
 Heriot-Watt University Dubai
 
 
